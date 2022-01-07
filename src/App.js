@@ -35,17 +35,16 @@ function App() {
 
   <Modal.Body>
   <Form>
-  <Form.Group className="mb-3" controlId="formBasicEmail">
+  <Form.Group className="mb-3" controlId="formItemName">
     <Form.Label>Name</Form.Label>
-    <Form.Control type="email" placeholder="Enter item name" />
+    <Form.Control type="name" placeholder="Enter item name" />
   </Form.Group>
 
-  <Form.Group className="mb-3" controlId="formBasicPassword">
-    <Form.Label>Password</Form.Label>
-    <Form.Control type="password" placeholder="Password" />
+  <Form.Group className="mb-3" controlId="formItemCategory">
+    <Form.Label>Quantity</Form.Label>
+    <Form.Control type="quantity" placeholder="Enter amount in stock" />
   </Form.Group>
-  <Form.Group className="mb-3" controlId="formBasicCheckbox">
-  </Form.Group>
+  
 </Form>
 
     
