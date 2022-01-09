@@ -1,12 +1,12 @@
-const express = require('express');
-const app = express();
-const port = process.env.PORT || 5000;
+// const express = require('express');
+// const app = express();
+// const port = process.env.PORT || 5000;
 
 
 //GET route for home page
-app.get('/', (req, res) => {
-    res.send('Hello world!');
-});
+// app.get('/', (req, res) => {
+//     res.send('Hello world!');
+// });
 
 //Add a GET route to get to Add page
 
@@ -31,6 +31,6 @@ app.get('/', (req, res) => {
 //Add dotenv file if needed
 
 //Listening on specified port, exporting this file
-module.exports = {app, 
-start: (port) => app.listen(port, console.log(`Listening on port ${port}`))
-};
+// module.exports = {app, 
+// start: (port) => app.listen(port, console.log(`Listening on port ${port}`))
+// };
