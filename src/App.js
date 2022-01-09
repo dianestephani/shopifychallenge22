@@ -1,7 +1,7 @@
 import { React } from 'react';
-import { app } from '../server';
 import './App.css';
-const cors = require("cors");
+// const cors = require("cors");
+// const express = require('express');
 
 function App() {
   return (
@@ -13,6 +13,6 @@ function App() {
   );
 }
 
-app.use(cors);
+// app.use(cors);
 
 export default App;
