@@ -1,15 +1,14 @@
-import { React, Component } from 'react';
+import React, { Component } from 'react';
 import './App.css';
-// const cors = require("cors");
-// const express = require('express');
 
-class App extends Component() {
+
+class App extends Component {
   //constructor function sets default state
   constructor(props) {
     super(props);
     this.state = { apiResponse: "" };
-}
 
+}
 //Calling the test api I created
 callAPI() {
     fetch("http://localhost:9000/testAPI")
@@ -33,6 +32,5 @@ componentWillMount() {
   }
 }
 
-// app.use(cors);
 
 export default App;
