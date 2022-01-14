@@ -1,4 +1,122 @@
-# Getting Started with Create React App
+# Shopify Technical Challenge 2022
+
+---------------------------------
+
+## Repositories
+
+This project is hosted in 2 separate repositories:
+
+1. [Front End React App](https://github.com/dianestephani/shopifychallenge22) in this current repository.
+1. [Back End Express Server](https://github.com/dianestephani/shopifyserver22).
+
+---------------------------------
+
+## Web Application
+
+This web app was built in JavaScript, using React for the front end and Express for the back end.
+
+The user can view all current inventory for their store on the home page. Each individual item has the option to be edited or deleted. The user can add new inventory items to the list, and the home page will update to reflect the new addition. 
+
+---------------------------------
+
+## Tools Used
+
+- Microsoft Visual Studio Code
+- Node.js
+- Express
+- MongoDB
+- React
+- Bootstrap
+- Cors
+- Fetch
+
+---------------------------------
+
+## Development Timeline
+
+- Thursday, January 13: Items viewable on home page.
+- Friday, January 14: Items can be added via button and form.
+- Saturday, January 15: Items can be deleted from the list via button.
+- Sunday, January 16: Items can be edited via button and form.
+- Monday, January 17: Home page item list can be exported as a text file.
+
+<!-- --------------------------------- -->
+
+<!-- ## Getting Started
+
+Clone this repository to your local machine.
+
+```
+git clone https://github.com/YourRepo/YourProject.git
+```
+
+Once downloaded, you can either use the dotnet CLI utilities or Visual Studio 2017 (or greater) to build the web application.
+
+```
+cd YourRepo/YourProject
+`npm i`
+```
+
+Install all dependencies needed for the project.
+
+```
+Database
+```
+
+* explain how to use the database *
+
+```
+cd YourRepo/YourProject
+npm start
+```
+
+---------------------------------
+
+## Usage
+
+***[Provide some images of your app that shows how it can be used with brief description as title]***
+
+### Overview of Recent Posts
+
+![Overview of Recent Posts](https://via.placeholder.com/500x250)
+
+### Creating a Post
+
+![Post Creation](https://via.placeholder.com/500x250)
+
+### Enriching a Post
+
+![Enriching Post](https://via.placeholder.com/500x250)
+
+### Viewing Post Details
+
+![Details of Post](https://via.placeholder.com/500x250)
+
+---------------------------
+
+## Data Flow (Frontend, Backend, REST API)
+
+***[Add a clean and clear explanation of what the data flow is. Walk me through it.]***
+![Data Flow Diagram](/assets/img/Flowchart.png)
+
+---------------------------
+
+## Data Model
+
+### Overall Project Schema
+
+***[Add a description of your DB schema. Explain the relationships to me.]***
+![Database Schema](/assets/img/ERD.png) -->
+
+---------------------------
+
+## Author
+
+Diane Stephani
+
+------------------------------
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +185,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
