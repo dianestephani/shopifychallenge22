@@ -21,8 +21,7 @@ The user can view all current inventory for their store on the home page. Each i
 
 ## Tools Used
 
-Microsoft Visual Studio
-
+- Microsoft Visual Studio Code
 - Node.js
 - Express
 - MongoDB
@@ -30,6 +29,16 @@ Microsoft Visual Studio
 - Bootstrap
 - Cors
 - Fetch
+
+---------------------------------
+
+## Development Timeline
+
+- Thursday, January 13: Items viewable on home page.
+- Friday, January 14: Items can be added via button and form.
+- Saturday, January 15: Items can be deleted from the list via button.
+- Sunday, January 16: Items can be edited via button and form.
+- Monday, January 17: Home page item list can be exported as a text file.
 
 <!-- --------------------------------- -->
 
