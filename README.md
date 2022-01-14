@@ -13,20 +13,9 @@ This project is hosted in 2 separate repositories:
 
 ## Web Application
 
-***[Explain your app, should be at least a paragraph. What does it do? Why should I use? Sell your product!]***
+This web app was built in JavaScript, using React for the front end and Express for the back end.
 
-The web application consists of a frontend written in Razor views, HTML, CSS,
-Bootstrap, Popper, and jQuery. The backend was written in C# using ASP.NET Core 2, Entity Framework Core, and the MVC framework.
-
-An interface is provided to create new blog
-posts, view existing blog posts, edit existing blog posts, delete existing
-blog posts, and search by both keywords and user names. All blog posts can be
-enriched using Azure Language Services (part of Microsoft's Cognitive Services
-suite), Bing Image API, and Parallel Dots (for automated tagging of posts via
-key phrases detected within the post's body). Image enrichments can be added
-based on the overall sentiment score (a range 0.0 - 1.0 related to the mood
-of the post) and key phrases / keywords detected in the posts. Optionally, users
-can choose to opt-out of these features for privacy or data collection concerns.
+The user can view all current inventory for their store on the home page. Each individual item has the option to be edited or deleted. The user can add new inventory items to the list, and the home page will update to reflect the new addition. 
 
 ---------------------------------
 
