@@ -17,7 +17,7 @@ callAPI() {
 }
 
 //Calls the callAPI method once the component mounts. Built-in function.
-componentWillMount() {
+componentDidMount() {
     this.callAPI();
 }
 
