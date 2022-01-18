@@ -9,6 +9,9 @@ class App extends Component {
     this.state = { apiResponse: "" };
 
 }
+
+
+
 //1. Calling server via fetch using LH9000/testAPI route. Retrieving text and using that to set state.
 callAPI() {
     fetch("http://localhost:9000/testAPI")
@@ -17,7 +20,7 @@ callAPI() {
 }
 
 //Calls the callAPI method once the component mounts. Built-in function.
-componentWillMount() {
+componentDidMount() {
     this.callAPI();
 }
 
@@ -31,6 +34,6 @@ componentWillMount() {
     );
   }
 }
-
+ //In render method, (will modify lines 31-33): looping through this.state.apiResponse. Each iteration of the forEach loop is going to give one of my items from the back end, AKA a row of the table. Google how to output a table or list in React.
 
 export default App;
