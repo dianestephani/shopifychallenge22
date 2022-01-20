@@ -48,7 +48,7 @@ The user can view all current inventory for their store on the home page. Each i
 Clone this repository to your local machine.
 
 ```
-git clone https://github.com/dianestephani/shopifychallenge22.git
+git clone https://github.com/dianestephani/shopifyserver22.git
 ```
 
 Change into project directory, install dependencies, and start the application. 
@@ -59,9 +59,10 @@ cd Repo/Project
 `npm start`
 ```
 
-After running `npm start`, the app will load in your browser on `http://localhost:3000.`
+After running `npm start`, the app will load in your browser on `http://localhost:9000.`
 
 Routes can be tested using [Postman](https://www.postman.com/downloads/).
+
 
 ### Installing the Front End
 
@@ -80,8 +81,6 @@ cd Repo/Project
 ```
 
 After running `npm start`, the app will load in your browser on `http://localhost:3000.`
-
-Routes can be tested using [Postman](https://www.postman.com/downloads/).
 
 
 ---------------------------------
